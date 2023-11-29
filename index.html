@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power consomption analysis</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">power consumption  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    options
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container">
+        <h1>Energy Consumption Analysis</h1>
+        <h5>Table of data</h5>
+        <table class="table table-dark table-striped">
+            <tr>
+                <th>Time</th>
+                <th>Device event</th>
+                <th>DP ID</th>
+                <th>Event data</th>
+                <th>source</th>
+              </tr>
+              <tr>
+                <td>24-11-23   10:04</td>
+                <td>report</td>
+                <td>Voltage</td>
+                <td>234.60V</td>
+                <td>Device itself</td>
+              </tr>
+              <tr>
+                <td>24-11-23  9:04 </td>
+                <td>report</td>
+                <td>Voltage</td>
+                <td>232.00V</td>
+                <td>Device itself</td>
+              </tr>
+              <tr>
+                <td>24-11-23   7:04</td>
+                <td>report</td>
+                <td>Voltage</td>
+                <td>235.40V</td>
+                <td>Device itself</td>
+              </tr>
+              <tr>
+                <td>24-11-23   6:04</td>
+                <td>report</td>
+                <td>Voltage</td>
+                <td>232.80V</td>
+                <td>Device itself</td>
+              </tr>
+              <tr>
+                <td>24-11-23   5:04</td>
+                <td>report</td>
+                <td>Voltage</td>
+                <td>230.70V</td>
+                <td>Device itself</td>
+              </tr>
+              <tr>
+                <td>24-11-23   4:04</td>
+                <td>report</td>
+                <td>Voltage</td>
+                <td>235.00V</td>
+                <td>Device itself</td>
+              </tr>
+              <tr>
+                <td>24-11-23   3:29</td>
+                <td>report</td>
+                <td>Add Electric</td>
+                <td>0</td>
+                <td>Device itself</td>
+              </tr>
+              <tr>
+                <td>24-11-23   3:04</td>
+                <td>report</td>
+                <td>current</td>
+                <td>0mA</td>
+                <td>Device itself</td>
+              </tr>
+              <tr>
+                <td>24-11-23   3:04</td>
+                <td>report</td>
+                <td>Power</td>
+                <td>0.00W</td>
+                <td>Device itself</td>
+              </tr>
+
+              <tr>
+                <td>24-11-23   3:04</td>
+                <td>report</td>
+                <td>Voltage</td>
+                <td>232.40</td>
+                <td>Device itself</td>
+              </tr>
+
+              <tr>
+                <td>24-11-23   3:03</td>
+                <td>report</td>
+                <td>Current</td>
+                <td>67 mA</td>
+                <td>Device itself</td>
+              </tr>
+
+              <tr>
+                <td>24-11-23   3:03</td>
+                <td>report</td>
+                <td>power</td>
+                <td>9.00W</td>
+                <td>Device itself</td>
+              </tr>
+
+              <tr>
+                <td>24-11-23   3:00</td>
+                <td>report</td>
+                <td>Voltage</td>
+                <td>232.80</td>
+                <td>Device itself</td>
+              </tr>
+
+              <tr>
+                <td>24-11-23   3:00</td>
+                <td>report</td>
+                <td>current</td>
+                <td>109mA</td>
+                <td>Device itself</td>
+              </tr>
+
+              <tr>
+                <td>24-11-23   3:00</td>
+                <td>report</td>
+                <td>Power</td>
+                <td>11.90W</td>
+                <td>Device itself</td>
+              </tr>
+          </table>
+    </div>
+
+    <div class="graps">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="graphs/graphs.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Consumption of power , voltages, current and Add electricity</h5>
+                  <p class="card-text">This graps shows that our input consumption of power , volatages , current and Add electricity , and we we got power consumption in Watt(W), current consumption in mili-Ampire(mA), and Voltage in volt.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img class="img" src="graphs/graph2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Power consuption vs time</h5>
+                  <p class="card-text">This graps shows power consumption in Watt. we can see that consumtion of power between a range of time is similar.</p>
+                </div>
+              </div>
+            </div>
+            
+          
+          </div>
+    </div>
+</body>
+</html>
